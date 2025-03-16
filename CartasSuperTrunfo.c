@@ -32,7 +32,7 @@ int main() {
 
 //Entrada da primeira carta 
     printf("\nDigite um estado (entre letra A a H):");
-    scanf(" %s", &estado1);
+    scanf("%s", &estado1);
     printf("Digite o código da carta (1°letra do estado ex.A01):");
     scanf("%s" , codigo_carta1);
     printf("Digite o nome da cidade:");
@@ -51,7 +51,7 @@ int main() {
 
 //Entranda de informações da segunda carta
     printf("Digite um estado (entre letra A a H):");
-    scanf(" %s", &estado2);
+    scanf("%s", &estado2);
     printf("Digite o código da carta (1°letra do estado ex.A01):");
     scanf("%s" , codigo_carta2);
     printf("Digite o nome da cidade:");
