@@ -21,7 +21,6 @@ int main() {
     float pib2;
     int ponto_turistico2;
 
-       //adicionei comentario para teste 
     //inicialização do jogo
 
     printf("____Super Trunfo de Paises____\n");
