@@ -11,6 +11,7 @@ int main() {
     float area1;
     float pib1;
     int ponto_turistico1;
+    float densidadepopu1 , pibpercapita1;
 
 // Variaveis da carta 2
     char estado2[40];
@@ -20,6 +21,7 @@ int main() {
     float area2;
     float pib2;
     int ponto_turistico2;
+    float densidadepopu2 , pibpercapita2;
 
     //inicialização do jogo
 
@@ -73,6 +75,10 @@ int main() {
     printf("Área: %.2f KM²\n" , area1);
     printf("PIB: %.2f Bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n" , ponto_turistico1);
+    densidadepopu1 = (float)populacao1/area1;
+    printf("Densidade Populacional: %.2f Hab/Km²\n" , densidadepopu1);
+    pibpercapita1 = pib1/(float)populacao1;
+    printf("PIB per Capita: %.1f Reais\n" , pibpercapita1);
 
 // Saida de informações da Segunda carta
     printf("\n____Informações da Carta 2 ____\n");
@@ -83,6 +89,10 @@ int main() {
     printf("Área: %.2f KM²\n" , area2);
     printf("PIB: %.2f Bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n" , ponto_turistico2);
+    densidadepopu2 = (float)populacao2/area2;
+    printf("Densidade Populacional: %.2f Hab/Km²\n" , densidadepopu2);
+    pibpercapita2 = pib2/(float)populacao2;
+    printf("PIB per Capita: %.1f Reais\n" , pibpercapita2);
 
     return 0;
 }
