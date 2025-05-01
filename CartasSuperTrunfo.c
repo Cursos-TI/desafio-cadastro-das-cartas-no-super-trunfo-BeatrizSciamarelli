@@ -31,38 +31,38 @@ int main() {
     printf("\n____Dados da Primeira Carta____\n"); //Mostrando ao jogador inicio de coleta de informações primeira carta
 
 //Entrada da primeira carta 
-    printf("\nDigite um estado (entre letra A a H):");
+    printf("\nDigite um Estado (entre letra A a H):");
     scanf("%s", &estado1);
-    printf("Digite o código da carta (1°letra do estado ex.A01):");
+    printf("Digite o Código da carta (1°letra do estado ex.A01):");
     scanf("%s" , codigo_carta1);
-    printf("Digite o nome da cidade:");
+    printf("Digite o Nome da cidade:");
     scanf("%s" , nome_cidade1);
-    printf("Digite a população da cidade:");
+    printf("Digite o Número de população da cidade:");
     scanf("%lu" , &populacao1);
-    printf("Digite a area em KM² da cidade:");
+    printf("Digite a Área em KM² da cidade:");
     scanf("%f" , &area1);
     printf("Digite o PIB da cidade:");
     scanf("%f" , &pib1);
-    printf("Digite o numero de pontos turisticos dessa cidade:");
+    printf("Digite o Número de pontos turísticos dessa cidade:");
     scanf("%d" , &pontoTuristico1);
 
 
     printf("\n____Dados da Segunda Carta____\n"); // Mostrando ao jogador inicio de coleta de informações segunda carta
 
 //Entranda de informações da segunda carta
-    printf("Digite um estado (entre letra A a H):");
+    printf("Digite um Estado (entre letra A a H):");
     scanf("%s", &estado2);
-    printf("Digite o código da carta (1°letra do estado ex.A01):");
+    printf("Digite o Código da carta (1°letra do estado ex.A01):");
     scanf("%s" , codigo_carta2);
-    printf("Digite o nome da cidade:");
+    printf("Digite o Nome da cidade:");
     scanf("%s" , nome_cidade2);
-    printf("Digite a população da cidade:");
+    printf("Digite o Número de população da cidade:");
     scanf("%lu" , &populacao2);
-    printf("Digite a area em KM² da cidade:");
+    printf("Digite a Área em KM² da cidade:");
     scanf("%f" , &area2);
     printf("Digite o PIB da cidade:");
     scanf("%f" , &pib2);
-    printf("Digite o numero de pontos turisticos da cidade:");
+    printf("Digite o Número de pontos turísticos da cidade:");
     scanf("%d" , &pontoTuristico2);
 
 // Saida de informações da Primeira carta 
